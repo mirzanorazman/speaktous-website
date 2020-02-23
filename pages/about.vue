@@ -7,17 +7,14 @@
         class="text-green-500 hover:underline"
         href="https://goo.gl/maps/1Lat9DbQrPDQxm8h7"
         target="_blank"
-      >
-        University of Wisconsin-Madison, USA
-      </a>
+      >University of Wisconsin-Madison, USA</a>
       that provides a peer-to-peer support platform for Malaysian students in
       the US. Through our
       <a
         @click.prevent="$router.push('/chat')"
         class="text-green-500 hover:underline"
         href="/chat"
-        >chat</a
-      >
+      >chat</a>
       feature, we are providing an online medium for students to speak up and
       share their concerns, just like having a friend who listens to your
       stories. Our team consists of inspiring individuals with passion to care
@@ -35,9 +32,7 @@
       <a
         class="text-green-500 hover:underline"
         href="mailto:speaktousofficial@gmail.com"
-      >
-        speaktousofficial@gmail.com
-      </a>
+      >speaktousofficial@gmail.com</a>
     </p>
   </main>
 </template>
@@ -47,15 +42,6 @@ export default {}
 </script>
 
 <style scoped>
-h1 {
-  @apply text-5xl text-center text-green-500;
-}
-h2 {
-  @apply text-3xl text-center text-green-400;
-}
-p {
-  @apply text-center text-gray-700 mb-2;
-}
 @screen lg {
   p {
     @apply mx-48;

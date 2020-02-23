@@ -4,41 +4,23 @@
       <!-- Default logo -->
       <div class="hidden sm:flex sm:pb-1 sm:pr-8">
         <a @click.prevent="$router.push('/')" href="/">
-          <img
-            src="~/static/logo-long.png"
-            alt="Speak To Us organization logo."
-            class="h-20"
-          />
+          <img src="~/static/logo-long.png" alt="Speak To Us organization logo." class="h-20" />
         </a>
       </div>
 
       <!-- Default screen navigation -->
       <nav class="hidden sm:flex">
-        <nuxt-link class="link-default" to="/">
-          Home
-        </nuxt-link>
-        <nuxt-link class="link-default" to="/chat">
-          Chat
-        </nuxt-link>
-        <nuxt-link class="link-default" to="/about">
-          About
-        </nuxt-link>
-        <nuxt-link class="link-default" to="/donate">
-          Donate
-        </nuxt-link>
-        <nuxt-link class="link-default" to="/joinus">
-          Join us!
-        </nuxt-link>
+        <nuxt-link class="link-default" to="/">Home</nuxt-link>
+        <nuxt-link class="link-default" to="/chat">Chat</nuxt-link>
+        <nuxt-link class="link-default" to="/about">About</nuxt-link>
+        <nuxt-link class="link-default" to="/donate">Donate</nuxt-link>
+        <nuxt-link class="link-default" to="/joinus">Join us!</nuxt-link>
       </nav>
 
       <!-- Mobile logo -->
       <div class="flex items-center justify-center px-4 py-4 sm:hidden">
         <a @click.prevent="$router.push('/')" href="/">
-          <img
-            src="~/static/logo-long.png"
-            alt="Speak To Us organization logo."
-            class="h-16"
-          />
+          <img src="~/static/logo-long.png" alt="Speak To Us organization logo." class="h-16" />
         </a>
       </div>
     </header>
@@ -49,24 +31,19 @@
     >
       <div class="flex justify-between">
         <nuxt-link class="link-mobile" to="/">
-          <HomeIcon class="ml-1 nav-icon" />
-          home
+          <HomeIcon class="ml-1 nav-icon" />home
         </nuxt-link>
         <nuxt-link class="link-mobile" to="/about">
-          <AboutIcon class="ml-1 nav-icon" />
-          about
+          <AboutIcon class="ml-1 nav-icon" />about
         </nuxt-link>
         <nuxt-link class="link-mobile" to="/chat">
-          <ChatIcon class="nav-icon" />
-          chat
+          <ChatIcon class="nav-icon" />chat
         </nuxt-link>
         <nuxt-link class="link-mobile" to="/donate">
-          <DonateIcon class="ml-2 nav-icon" />
-          donate
+          <DonateIcon class="ml-2 nav-icon" />donate
         </nuxt-link>
         <nuxt-link class="link-mobile" to="/joinus">
-          <JoinusIcon class="ml-3 nav-icon" />
-          Join us!
+          <JoinusIcon class="ml-3 nav-icon" />Join us!
         </nuxt-link>
       </div>
     </nav>
