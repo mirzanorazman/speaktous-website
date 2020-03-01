@@ -22,7 +22,7 @@
           <button
             class="justify-center font-heading font-bold text-center text-white bg-green-400 rounded hover:bg-green-700 w-full sm:w-1/3 py-3 px-3 mr-0 sm:mr-2"
             @click.prevent="$router.push('/chat')"
-          >Get started</button>
+          >Chat Now</button>
           <button
             class="justify-center font-heading font-bold text-center text-white bg-gray-400 rounded hover:bg-gray-700 w-full sm:w-1/3 py-3 px-3 mt-3 sm:mt-0"
             @click.prevent="$router.push('/about')"
